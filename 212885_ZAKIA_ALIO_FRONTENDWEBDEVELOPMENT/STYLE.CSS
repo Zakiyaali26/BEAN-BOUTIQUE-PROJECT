@@ -1,0 +1,115 @@
+body {
+    font-family: 'Cursive', sans-serif; /* Soft, elegant font */
+    background-color: #f8e8e6; /* Light pastel pink background */
+    color: #5b3a29; /* Warm brown text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f3d3cf; /* Slightly darker pink for the header */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5b3a29;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #f5b7b1; /* Light pink hover effect */
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Cursive', sans-serif;
+    font-size: 3em;
+    color: #d18a77;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+    justify-items: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-text {
+    padding: 20px;
+    text-align: center;
+    color: #5b3a29;
+}
+
+footer {
+    background-color: #f3d3cf;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: none; /* Hidden by default */
+}
+
+.popup button {
+    background-color: #d18a77;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background-color:#c36d5c;
+}
+#map {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #map h2 {
+    font-size: 24px;
+    color:#333;
+  }

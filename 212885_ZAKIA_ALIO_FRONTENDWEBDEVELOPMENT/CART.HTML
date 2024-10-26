@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Bean Boutique</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="coffee.html">Coffee Selection</a></li>
+                <li><a href="equipment.html">Brewing Equipment</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="offers.html">Special Offers</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+        <h1>Shopping Cart</h1>
+    </header>
+
+    <section class="cart">
+        <h2>Your Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Espresso Machine</td>
+                    <td>
+                        <input type="number" value="1" min="1">
+                    </td>
+                    <td>200</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>French Press</td>
+                    <td>
+                        <input type="number" value="2" min="1">
+                    </td>
+                    <td>30</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                <td>Pour over coffee maker</td>
+                <td>
+                    <input type="number" value="3" min="1">
+                </td>
+                <td>200</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Drip coffee maker</td>
+                <td>
+                    <input type="number" value="4" min="1">
+                </td>
+                <td>200</td>
+                <td>200</td>
+            </tr>
+            
+
+            </tbody>
+        </table>
+
+        <div class="cart-total">
+            <p>Subtotal: 260</p>
+            <p>Shipping: 15</p>
+            <p><strong>Total: 275</strong></p>
+        </div>
+
+        <button class="checkout-btn">Go to Checkout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bean Boutique</p>
+    </footer>
+</body>
+</html>
